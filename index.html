@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Daily Expense Tracker</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="container">
+        <h1>Daily Expense Tracker</h1>
+
+        <form id="expense-form">
+            <input type="text" id="title" placeholder="Expense Title" required>
+            <input type="number" id="amount" placeholder="Amount" required>
+            <button type="submit">Add Expense</button>
+        </form>
+
+        <div class="summary">
+            <h3>Total: ₹ <span id="total">0</span></h3>
+        </div>
+
+        <ul id="expense-list"></ul>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
